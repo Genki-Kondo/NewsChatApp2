@@ -3,27 +3,104 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29DA8F73F19DBA4603C5BBED /* Pods_Swift5NewsChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB102426BD097450DC8042F8 /* Pods_Swift5NewsChat.framework */; };
+		7B1866EB24A2E22500E627E7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7B1866EA24A2E22500E627E7 /* GoogleService-Info.plist */; };
+		7B1866ED24A2F48100E627E7 /* BlockButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1866EC24A2F48100E627E7 /* BlockButton.swift */; };
+		7B2EB16724598954009B9A0F /* Page7YahooViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2EB16624598954009B9A0F /* Page7YahooViewController.swift */; };
+		7B2EB1692459994B009B9A0F /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2EB1682459994B009B9A0F /* Music.swift */; };
+		7B2EB16B24599CD3009B9A0F /* ログイン画面音源.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7B2EB16A24599CD3009B9A0F /* ログイン画面音源.mp3 */; };
+		7B2EB16D24599D7F009B9A0F /* スタート画面音源.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7B2EB16C24599D7F009B9A0F /* スタート画面音源.mp3 */; };
+		7B2EB16F24599DE7009B9A0F /* ニュース画面音源.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7B2EB16E24599DE7009B9A0F /* ニュース画面音源.mp3 */; };
+		7B2EB1712459B16C009B9A0F /* チャット画面音源.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7B2EB1702459B16C009B9A0F /* チャット画面音源.mp3 */; };
+		7B2EB1732459B5C1009B9A0F /* ログイン効果音.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7B2EB1722459B5C1009B9A0F /* ログイン効果音.mp3 */; };
+		7B2EB1752459B759009B9A0F /* チャット効果音.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7B2EB1742459B759009B9A0F /* チャット効果音.mp3 */; };
+		7B2EB1772459B877009B9A0F /* ニュース効果音.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7B2EB1762459B877009B9A0F /* ニュース効果音.mp3 */; };
+		7B31C8B3244EC74B00FA38BD /* Contents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B31C8B2244EC74A00FA38BD /* Contents.swift */; };
+		7B31C8B5244ED5E700FA38BD /* EditAndPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B31C8B4244ED5E700FA38BD /* EditAndPostViewController.swift */; };
+		7B324658245EDAF30061FC72 /* iPhone8plus.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B324657245EDAF30061FC72 /* iPhone8plus.storyboard */; };
+		7B327882245EEDF700CE817D /* iPhoneXS.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B327881245EEDF700CE817D /* iPhoneXS.storyboard */; };
+		7B327886245EF01200CE817D /* iPadPro10.5iPadAir.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B327885245EF01200CE817D /* iPadPro10.5iPadAir.storyboard */; };
+		7B36F80524A0757800B6702E /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B36F80424A0757800B6702E /* Launch Screen.storyboard */; };
+		7B380F73244DCC7B00F9D00B /* Page5WorldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B380F72244DCC7B00F9D00B /* Page5WorldViewController.swift */; };
+		7B380F75244DE49000F9D00B /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B380F74244DE49000F9D00B /* ChatViewController.swift */; };
+		7B3A3D7524581B70009DBFDB /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3A3D7424581B70009DBFDB /* DetailViewController.swift */; };
 		7B4B3936244D90D5009ABFC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4B3935244D90D5009ABFC8 /* AppDelegate.swift */; };
 		7B4B3938244D90D5009ABFC8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4B3937244D90D5009ABFC8 /* SceneDelegate.swift */; };
-		7B4B393A244D90D5009ABFC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4B3939244D90D5009ABFC8 /* ViewController.swift */; };
 		7B4B393D244D90D5009ABFC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B4B393B244D90D5009ABFC8 /* Main.storyboard */; };
 		7B4B393F244D90D7009ABFC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B4B393E244D90D7009ABFC8 /* Assets.xcassets */; };
-		7B4B3942244D90D7009ABFC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B4B3940244D90D7009ABFC8 /* LaunchScreen.storyboard */; };
+		7B4B394D244D919B009ABFC8 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4B394C244D919B009ABFC8 /* IntroViewController.swift */; };
+		7B4B3953244D91C8009ABFC8 /* 2.json in Resources */ = {isa = PBXBuildFile; fileRef = 7B4B394E244D91C7009ABFC8 /* 2.json */; };
+		7B4B3954244D91C8009ABFC8 /* 5.json in Resources */ = {isa = PBXBuildFile; fileRef = 7B4B394F244D91C7009ABFC8 /* 5.json */; };
+		7B4B3955244D91C8009ABFC8 /* 3.json in Resources */ = {isa = PBXBuildFile; fileRef = 7B4B3950244D91C7009ABFC8 /* 3.json */; };
+		7B4B3956244D91C8009ABFC8 /* 1.json in Resources */ = {isa = PBXBuildFile; fileRef = 7B4B3951244D91C8009ABFC8 /* 1.json */; };
+		7B4B3957244D91C8009ABFC8 /* 4.json in Resources */ = {isa = PBXBuildFile; fileRef = 7B4B3952244D91C8009ABFC8 /* 4.json */; };
+		7B4B3959244D937A009ABFC8 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4B3958244D937A009ABFC8 /* MenuViewController.swift */; };
+		7B4B395C244D9F0B009ABFC8 /* Sakura.mov in Resources */ = {isa = PBXBuildFile; fileRef = 7B4B395B244D9F0B009ABFC8 /* Sakura.mov */; };
+		7B4B395E244DA1C5009ABFC8 /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4B395D244DA1C5009ABFC8 /* InputViewController.swift */; };
+		7B4B3960244DA8DA009ABFC8 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4B395F244DA8DA009ABFC8 /* BaseViewController.swift */; };
+		7B4B3962244DAF2C009ABFC8 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4B3961244DAF2C009ABFC8 /* WebViewController.swift */; };
+		7B4B3964244DB16F009ABFC8 /* Page1TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4B3963244DB16F009ABFC8 /* Page1TopViewController.swift */; };
+		7B4B3966244DB2D4009ABFC8 /* NewsItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4B3965244DB2D4009ABFC8 /* NewsItems.swift */; };
+		7B4B3968244DB4A5009ABFC8 /* Page2ITViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4B3967244DB4A5009ABFC8 /* Page2ITViewController.swift */; };
+		7B4B396A244DB571009ABFC8 /* Page3SportsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4B3969244DB571009ABFC8 /* Page3SportsViewController.swift */; };
+		7B4B396C244DB652009ABFC8 /* Page4EntertainmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4B396B244DB652009ABFC8 /* Page4EntertainmentViewController.swift */; };
+		7BBB65B4245EBD3A00605259 /* Page6WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBB65B3245EBD3A00605259 /* Page6WeatherViewController.swift */; };
+		7BBB65D7245ED14100605259 /* iPhoneXSMAX.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BBB65D6245ED14100605259 /* iPhoneXSMAX.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7B1866EA24A2E22500E627E7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Controller/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7B1866EC24A2F48100E627E7 /* BlockButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockButton.swift; sourceTree = "<group>"; };
+		7B2EB16624598954009B9A0F /* Page7YahooViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page7YahooViewController.swift; sourceTree = "<group>"; };
+		7B2EB1682459994B009B9A0F /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
+		7B2EB16A24599CD3009B9A0F /* ログイン画面音源.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ログイン画面音源.mp3"; sourceTree = "<group>"; };
+		7B2EB16C24599D7F009B9A0F /* スタート画面音源.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "スタート画面音源.mp3"; sourceTree = "<group>"; };
+		7B2EB16E24599DE7009B9A0F /* ニュース画面音源.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ニュース画面音源.mp3"; sourceTree = "<group>"; };
+		7B2EB1702459B16C009B9A0F /* チャット画面音源.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "チャット画面音源.mp3"; sourceTree = "<group>"; };
+		7B2EB1722459B5C1009B9A0F /* ログイン効果音.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ログイン効果音.mp3"; sourceTree = "<group>"; };
+		7B2EB1742459B759009B9A0F /* チャット効果音.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "チャット効果音.mp3"; sourceTree = "<group>"; };
+		7B2EB1762459B877009B9A0F /* ニュース効果音.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ニュース効果音.mp3"; sourceTree = "<group>"; };
+		7B31C8B2244EC74A00FA38BD /* Contents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contents.swift; sourceTree = "<group>"; };
+		7B31C8B4244ED5E700FA38BD /* EditAndPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditAndPostViewController.swift; sourceTree = "<group>"; };
+		7B324657245EDAF30061FC72 /* iPhone8plus.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = iPhone8plus.storyboard; sourceTree = "<group>"; };
+		7B327881245EEDF700CE817D /* iPhoneXS.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = iPhoneXS.storyboard; sourceTree = "<group>"; };
+		7B327885245EF01200CE817D /* iPadPro10.5iPadAir.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = iPadPro10.5iPadAir.storyboard; sourceTree = "<group>"; };
+		7B36F80424A0757800B6702E /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		7B380F72244DCC7B00F9D00B /* Page5WorldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page5WorldViewController.swift; sourceTree = "<group>"; };
+		7B380F74244DE49000F9D00B /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		7B3A3D7424581B70009DBFDB /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		7B4B3932244D90D5009ABFC8 /* Swift5NewsChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift5NewsChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B4B3935244D90D5009ABFC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7B4B3937244D90D5009ABFC8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7B4B3939244D90D5009ABFC8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7B4B393C244D90D5009ABFC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7B4B393E244D90D7009ABFC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7B4B3941244D90D7009ABFC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B4B3943244D90D7009ABFC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B4B394C244D919B009ABFC8 /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		7B4B394E244D91C7009ABFC8 /* 2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 2.json; sourceTree = "<group>"; };
+		7B4B394F244D91C7009ABFC8 /* 5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 5.json; sourceTree = "<group>"; };
+		7B4B3950244D91C7009ABFC8 /* 3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 3.json; sourceTree = "<group>"; };
+		7B4B3951244D91C8009ABFC8 /* 1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 1.json; sourceTree = "<group>"; };
+		7B4B3952244D91C8009ABFC8 /* 4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 4.json; sourceTree = "<group>"; };
+		7B4B3958244D937A009ABFC8 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		7B4B395B244D9F0B009ABFC8 /* Sakura.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = Sakura.mov; sourceTree = "<group>"; };
+		7B4B395D244DA1C5009ABFC8 /* InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
+		7B4B395F244DA8DA009ABFC8 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		7B4B3961244DAF2C009ABFC8 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		7B4B3963244DB16F009ABFC8 /* Page1TopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page1TopViewController.swift; sourceTree = "<group>"; };
+		7B4B3965244DB2D4009ABFC8 /* NewsItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsItems.swift; sourceTree = "<group>"; };
+		7B4B3967244DB4A5009ABFC8 /* Page2ITViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page2ITViewController.swift; sourceTree = "<group>"; };
+		7B4B3969244DB571009ABFC8 /* Page3SportsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page3SportsViewController.swift; sourceTree = "<group>"; };
+		7B4B396B244DB652009ABFC8 /* Page4EntertainmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page4EntertainmentViewController.swift; sourceTree = "<group>"; };
+		7BBB65B2245EA6BC00605259 /* Swift5NewsChat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Swift5NewsChat.entitlements; sourceTree = "<group>"; };
+		7BBB65B3245EBD3A00605259 /* Page6WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page6WeatherViewController.swift; sourceTree = "<group>"; };
+		7BBB65D6245ED14100605259 /* iPhoneXSMAX.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = iPhoneXSMAX.storyboard; sourceTree = "<group>"; };
+		B0CC269DE723BDB1D141EF5F /* Pods-Swift5NewsChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift5NewsChat.debug.xcconfig"; path = "Target Support Files/Pods-Swift5NewsChat/Pods-Swift5NewsChat.debug.xcconfig"; sourceTree = "<group>"; };
+		BD1E37291AD351157D116E30 /* Pods-Swift5NewsChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift5NewsChat.release.xcconfig"; path = "Target Support Files/Pods-Swift5NewsChat/Pods-Swift5NewsChat.release.xcconfig"; sourceTree = "<group>"; };
+		FB102426BD097450DC8042F8 /* Pods_Swift5NewsChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swift5NewsChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +108,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29DA8F73F19DBA4603C5BBED /* Pods_Swift5NewsChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		55380EE3C23CAC7ECBA64AEA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B0CC269DE723BDB1D141EF5F /* Pods-Swift5NewsChat.debug.xcconfig */,
+				BD1E37291AD351157D116E30 /* Pods-Swift5NewsChat.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		7B4B3929244D90D5009ABFC8 = {
 			isa = PBXGroup;
 			children = (
 				7B4B3934244D90D5009ABFC8 /* Swift5NewsChat */,
 				7B4B3933244D90D5009ABFC8 /* Products */,
+				55380EE3C23CAC7ECBA64AEA /* Pods */,
+				D840879FC8F2862AC2CB87FE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +145,92 @@
 		7B4B3934244D90D5009ABFC8 /* Swift5NewsChat */ = {
 			isa = PBXGroup;
 			children = (
-				7B4B3935244D90D5009ABFC8 /* AppDelegate.swift */,
-				7B4B3937244D90D5009ABFC8 /* SceneDelegate.swift */,
-				7B4B3939244D90D5009ABFC8 /* ViewController.swift */,
-				7B4B393B244D90D5009ABFC8 /* Main.storyboard */,
-				7B4B393E244D90D7009ABFC8 /* Assets.xcassets */,
-				7B4B3940244D90D7009ABFC8 /* LaunchScreen.storyboard */,
+				7BBB65D5245ED0CB00605259 /* StoryBoard */,
+				7BBB65B2245EA6BC00605259 /* Swift5NewsChat.entitlements */,
+				7B4B394B244D914C009ABFC8 /* Model */,
+				7B4B394A244D9146009ABFC8 /* View */,
+				7B4B3949244D913A009ABFC8 /* Controller */,
 				7B4B3943244D90D7009ABFC8 /* Info.plist */,
+				7B1866EA24A2E22500E627E7 /* GoogleService-Info.plist */,
+				7B2EB16A24599CD3009B9A0F /* ログイン画面音源.mp3 */,
+				7B2EB16C24599D7F009B9A0F /* スタート画面音源.mp3 */,
+				7B2EB16E24599DE7009B9A0F /* ニュース画面音源.mp3 */,
+				7B2EB1702459B16C009B9A0F /* チャット画面音源.mp3 */,
+				7B2EB1742459B759009B9A0F /* チャット効果音.mp3 */,
+				7B2EB1722459B5C1009B9A0F /* ログイン効果音.mp3 */,
+				7B2EB1762459B877009B9A0F /* ニュース効果音.mp3 */,
+				7B4B3951244D91C8009ABFC8 /* 1.json */,
+				7B4B394E244D91C7009ABFC8 /* 2.json */,
+				7B4B3950244D91C7009ABFC8 /* 3.json */,
+				7B4B3952244D91C8009ABFC8 /* 4.json */,
+				7B4B394F244D91C7009ABFC8 /* 5.json */,
+				7B4B395B244D9F0B009ABFC8 /* Sakura.mov */,
 			);
 			path = Swift5NewsChat;
+			sourceTree = "<group>";
+		};
+		7B4B3949244D913A009ABFC8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7B4B3935244D90D5009ABFC8 /* AppDelegate.swift */,
+				7B4B3937244D90D5009ABFC8 /* SceneDelegate.swift */,
+				7B4B394C244D919B009ABFC8 /* IntroViewController.swift */,
+				7B4B3958244D937A009ABFC8 /* MenuViewController.swift */,
+				7B4B395D244DA1C5009ABFC8 /* InputViewController.swift */,
+				7B4B395F244DA8DA009ABFC8 /* BaseViewController.swift */,
+				7B4B3961244DAF2C009ABFC8 /* WebViewController.swift */,
+				7B4B3963244DB16F009ABFC8 /* Page1TopViewController.swift */,
+				7B4B3967244DB4A5009ABFC8 /* Page2ITViewController.swift */,
+				7B4B3969244DB571009ABFC8 /* Page3SportsViewController.swift */,
+				7B4B396B244DB652009ABFC8 /* Page4EntertainmentViewController.swift */,
+				7B380F72244DCC7B00F9D00B /* Page5WorldViewController.swift */,
+				7BBB65B3245EBD3A00605259 /* Page6WeatherViewController.swift */,
+				7B2EB16624598954009B9A0F /* Page7YahooViewController.swift */,
+				7B380F74244DE49000F9D00B /* ChatViewController.swift */,
+				7B31C8B4244ED5E700FA38BD /* EditAndPostViewController.swift */,
+				7B3A3D7424581B70009DBFDB /* DetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7B4B394A244D9146009ABFC8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7BBB65D6245ED14100605259 /* iPhoneXSMAX.storyboard */,
+				7B324657245EDAF30061FC72 /* iPhone8plus.storyboard */,
+				7B4B393E244D90D7009ABFC8 /* Assets.xcassets */,
+				7B4B393B244D90D5009ABFC8 /* Main.storyboard */,
+				7B327881245EEDF700CE817D /* iPhoneXS.storyboard */,
+				7B327885245EF01200CE817D /* iPadPro10.5iPadAir.storyboard */,
+				7B36F80424A0757800B6702E /* Launch Screen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7B4B394B244D914C009ABFC8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7B31C8B2244EC74A00FA38BD /* Contents.swift */,
+				7B4B3965244DB2D4009ABFC8 /* NewsItems.swift */,
+				7B2EB1682459994B009B9A0F /* Music.swift */,
+				7B1866EC24A2F48100E627E7 /* BlockButton.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7BBB65D5245ED0CB00605259 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		D840879FC8F2862AC2CB87FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB102426BD097450DC8042F8 /* Pods_Swift5NewsChat.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +240,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7B4B3946244D90D7009ABFC8 /* Build configuration list for PBXNativeTarget "Swift5NewsChat" */;
 			buildPhases = (
+				510968A0BCBB104196515FF0 /* [CP] Check Pods Manifest.lock */,
 				7B4B392E244D90D5009ABFC8 /* Sources */,
 				7B4B392F244D90D5009ABFC8 /* Frameworks */,
 				7B4B3930244D90D5009ABFC8 /* Resources */,
+				3F39099DD45CF34DD0C38C33 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,22 +293,100 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B4B3942244D90D7009ABFC8 /* LaunchScreen.storyboard in Resources */,
+				7B327882245EEDF700CE817D /* iPhoneXS.storyboard in Resources */,
+				7B324658245EDAF30061FC72 /* iPhone8plus.storyboard in Resources */,
+				7B4B3954244D91C8009ABFC8 /* 5.json in Resources */,
+				7BBB65D7245ED14100605259 /* iPhoneXSMAX.storyboard in Resources */,
+				7B4B395C244D9F0B009ABFC8 /* Sakura.mov in Resources */,
+				7B4B3953244D91C8009ABFC8 /* 2.json in Resources */,
+				7B36F80524A0757800B6702E /* Launch Screen.storyboard in Resources */,
+				7B2EB1712459B16C009B9A0F /* チャット画面音源.mp3 in Resources */,
+				7B4B3957244D91C8009ABFC8 /* 4.json in Resources */,
+				7B2EB1732459B5C1009B9A0F /* ログイン効果音.mp3 in Resources */,
+				7B4B3955244D91C8009ABFC8 /* 3.json in Resources */,
 				7B4B393F244D90D7009ABFC8 /* Assets.xcassets in Resources */,
+				7B2EB16F24599DE7009B9A0F /* ニュース画面音源.mp3 in Resources */,
+				7B4B3956244D91C8009ABFC8 /* 1.json in Resources */,
+				7B2EB1752459B759009B9A0F /* チャット効果音.mp3 in Resources */,
+				7B2EB16B24599CD3009B9A0F /* ログイン画面音源.mp3 in Resources */,
 				7B4B393D244D90D5009ABFC8 /* Main.storyboard in Resources */,
+				7B2EB16D24599D7F009B9A0F /* スタート画面音源.mp3 in Resources */,
+				7B2EB1772459B877009B9A0F /* ニュース効果音.mp3 in Resources */,
+				7B327886245EF01200CE817D /* iPadPro10.5iPadAir.storyboard in Resources */,
+				7B1866EB24A2E22500E627E7 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3F39099DD45CF34DD0C38C33 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Swift5NewsChat/Pods-Swift5NewsChat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Swift5NewsChat/Pods-Swift5NewsChat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Swift5NewsChat/Pods-Swift5NewsChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		510968A0BCBB104196515FF0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Swift5NewsChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7B4B392E244D90D5009ABFC8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B4B393A244D90D5009ABFC8 /* ViewController.swift in Sources */,
+				7B4B396A244DB571009ABFC8 /* Page3SportsViewController.swift in Sources */,
+				7B380F73244DCC7B00F9D00B /* Page5WorldViewController.swift in Sources */,
+				7B4B3966244DB2D4009ABFC8 /* NewsItems.swift in Sources */,
+				7B4B394D244D919B009ABFC8 /* IntroViewController.swift in Sources */,
+				7B4B396C244DB652009ABFC8 /* Page4EntertainmentViewController.swift in Sources */,
+				7B4B395E244DA1C5009ABFC8 /* InputViewController.swift in Sources */,
+				7B4B3968244DB4A5009ABFC8 /* Page2ITViewController.swift in Sources */,
 				7B4B3936244D90D5009ABFC8 /* AppDelegate.swift in Sources */,
+				7B2EB1692459994B009B9A0F /* Music.swift in Sources */,
+				7B3A3D7524581B70009DBFDB /* DetailViewController.swift in Sources */,
+				7B31C8B3244EC74B00FA38BD /* Contents.swift in Sources */,
 				7B4B3938244D90D5009ABFC8 /* SceneDelegate.swift in Sources */,
+				7B2EB16724598954009B9A0F /* Page7YahooViewController.swift in Sources */,
+				7B4B3962244DAF2C009ABFC8 /* WebViewController.swift in Sources */,
+				7B31C8B5244ED5E700FA38BD /* EditAndPostViewController.swift in Sources */,
+				7B4B3959244D937A009ABFC8 /* MenuViewController.swift in Sources */,
+				7B4B3960244DA8DA009ABFC8 /* BaseViewController.swift in Sources */,
+				7B380F75244DE49000F9D00B /* ChatViewController.swift in Sources */,
+				7BBB65B4245EBD3A00605259 /* Page6WeatherViewController.swift in Sources */,
+				7B4B3964244DB16F009ABFC8 /* Page1TopViewController.swift in Sources */,
+				7B1866ED24A2F48100E627E7 /* BlockButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,14 +399,6 @@
 				7B4B393C244D90D5009ABFC8 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		7B4B3940244D90D7009ABFC8 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7B4B3941244D90D7009ABFC8 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -282,37 +520,45 @@
 		};
 		7B4B3947244D90D7009ABFC8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0CC269DE723BDB1D141EF5F /* Pods-Swift5NewsChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Swift5NewsChat/Swift5NewsChat.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.2;
 				DEVELOPMENT_TEAM = 3JZRVMTX25;
 				INFOPLIST_FILE = Swift5NewsChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.genki.Swift5NewsChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		7B4B3948244D90D7009ABFC8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD1E37291AD351157D116E30 /* Pods-Swift5NewsChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Swift5NewsChat/Swift5NewsChat.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.2;
 				DEVELOPMENT_TEAM = 3JZRVMTX25;
 				INFOPLIST_FILE = Swift5NewsChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.genki.Swift5NewsChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
